@@ -13,6 +13,7 @@ function increment(){
 function decrement(){
     counter--
     if(counter<0){
+        alert("you cannot decrement further")
         counter=0;
     }
     countertext.innerText=counter
